@@ -55,11 +55,7 @@ end
 array = [11,4,7,8,9,100,134]
 
 sum_array(array)
-sum = 0
-  array.inject do |num|
-    sum +=num
-  end
-end
+
   
 
 
