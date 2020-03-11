@@ -52,7 +52,7 @@ def find_a(array)
   end
 end
 
-array = 
+array = [11,4,7,8,9,100,134]
   
 
 
