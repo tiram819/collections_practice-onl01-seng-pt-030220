@@ -61,11 +61,11 @@ array = [11,4,7,8,9,100,134]
 array = ["hand","feet", "knee", "table"]
 
 def add_s(array)
-  array.collect do |word|
-    if array[1] == word
-      word
+  array.collect do |ele|
+    if array[1] == ele
+      ele
     else
-      word + "s"
+      ele + "s"
     end
   end 
 end 
