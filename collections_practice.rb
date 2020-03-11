@@ -59,8 +59,7 @@ sum = 0
   array.inject do |num|
     sum +=num
   end
-  sum
-end 
+  
   
 
 
