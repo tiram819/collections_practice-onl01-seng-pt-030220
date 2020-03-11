@@ -52,12 +52,8 @@ def find_a(array)
   end
 end
 
-array = [11,4,7,8,9,100,134]
 
-sum_array(array)
-
-  [1, 2, 3, 4].inject(0) { |result, element| result + element }
   
-end
+
 
 
