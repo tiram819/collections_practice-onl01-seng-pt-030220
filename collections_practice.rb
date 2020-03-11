@@ -61,8 +61,17 @@ array = [11,4,7,8,9,100,134]
 array = ["hand","feet", "knee", "table"]
 
 def add_s(array)
-  [1,2].each_with_index.collect{|element, index| }
+  def add_s(array)
+  array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
 end
+
+
 
 
 
